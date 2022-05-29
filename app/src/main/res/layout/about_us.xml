@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEDEBE"
+    android:orientation="vertical"
+    tools:context=".About_Us">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:fontFamily="@font/amarante"
+        android:text="About Us"
+        android:textColor="#424243"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:autoSizeTextType="none" />
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="75dp"
+        android:background="#424243"
+        android:fontFamily="@font/amarante"
+        android:text="                             "
+        android:textSize="30dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:clickable="false"
+        android:src="@drawable/abtus" />
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="140dp"
+        android:id="@+id/textView11"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amarante"
+        android:text="Our story begins with a small idea from a few like-minded people, that kept working throughout the night. We just started building a application with that idea, with Designers and Java developers on board. Our expert team takes a systematic approach to develop programs. We pay particular attention to user testing and aim to deliver better Application that will be loved by people."
+        android:textColor="#424243"
+        android:textSize="21dp" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="590dp"
+        android:rotation="1"
+        android:rotationX="180"
+        android:src="@drawable/container" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="590dp"
+        android:rotationX="15"
+        android:src="@drawable/container" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="620dp"
+        android:src="@drawable/l1" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="590dp"
+        android:rotationX="16"
+        android:src="@drawable/container" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="590dp"
+        android:rotation="0"
+        android:rotationX="155"
+        android:src="@drawable/container" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="590dp"
+        android:rotation="0"
+        android:rotationX="27"
+        android:src="@drawable/container" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="131dp"
+        android:layout_marginTop="620dp"
+        android:src="@drawable/l2" />
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="231dp"
+        android:layout_marginTop="620dp"
+        android:src="@drawable/l3" />
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="332dp"
+        android:layout_marginTop="620dp"
+        android:src="@drawable/l4" />
+
+</FrameLayout>
